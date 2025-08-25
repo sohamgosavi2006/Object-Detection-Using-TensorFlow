@@ -1,5 +1,13 @@
 # Object-Detection-Using-TensorFlow
-This project demonstrates object detection with TensorFlow, using pre-trained models from TensorFlow Hub. It loads datasets, preprocesses images, applies detection models, and visualizes results with bounding boxes, showcasing end-to-end deep learning for computer vision tasks.
+Object Detection is a core task in Computer Vision (CV) that involves not only classifying objects in an image but also localizing them by drawing bounding boxes around detected instances. This project implements object detection using TensorFlow 2.x and pre-trained models from TensorFlow Hub. By leveraging state-of-the-art architectures such as SSD (Single Shot Detector) and Faster R-CNN, the model can detect multiple objects in an image, assign class labels, and provide confidence scores for each detection.
+
+The workflow covers the end-to-end pipeline:
+1.) Loading and preprocessing input images.
+2.) Running inference using a pre-trained detection model.
+3.) Visualizing results by overlaying bounding boxes, class names, and scores.
+
+This project serves as a starting point for building practical computer vision applications such as autonomous vehicles, surveillance, retail analytics, and smart city systems, where object recognition and localization are essential.
+
 
 Training Dataset to detect Digits ->
 <img width="1398" height="528" alt="Screenshot 2025-08-25 at 11 12 15 AM" src="https://github.com/user-attachments/assets/1ec55bd0-f0d6-4627-8007-7d047c06accb" />
