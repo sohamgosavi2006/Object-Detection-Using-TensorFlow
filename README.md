@@ -24,7 +24,7 @@ Runs object detection to identify multiple objects in an image.
 Visualizes predictions with bounding boxes and labels using PIL & Matplotlib.
 End-to-end pipeline: load image → detect objects → show results.
 
-Results --->
+📈 Results --->
 
 Successfully detects multiple objects per image.
 Output is bounding boxes with confidence scores.
